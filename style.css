@@ -1,0 +1,42 @@
+body {
+  position: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 5%;
+  height: 900px;
+}
+
+#canvas {
+  background-color: rgb(247, 251, 254);
+  height: 575px;
+  width: 975px;
+  margin-top: 20px;
+}
+
+#title {
+  font-size: 50px;
+}
+
+#textInBox {
+font-size: 7px;
+}
+
+#legend {
+  width: 600px;
+  height: 500px;
+}
+
+.legend-item {
+  height: 20px;
+  width: 20px;
+}
+
+#tooltip {
+  visibility: hidden;
+  position: absolute;
+  opacity: 0.8;
+  background-color: #FAFAD2;
+  text-align: center;
+  padding: 25px;
+  border-radius: 3px;
+}

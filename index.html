@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="
+    https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" 
+    defer
+    ></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1 id="title">Video Game Sales</h1>
+    <h4 id="description">Top 100 Most Sold Video Games Grouped by Platform</h4>
+    <div id="app"></div>
+    <svg id="canvas"></svg>
+    <div></div>
+    <svg id="legend">
+      <rect class="legend-item" fill="steelBlue" y="5" x="10"></rect><text y="20" x="45">Product Design</text>
+      <rect class="legend-item" fill="#B9D9EB" y="5" x="210"></rect><text y="20" x="245">Tabletop Games</text>
+      <rect class="legend-item" fill="#FF7F50" y="5" x="410"></rect><text y="20" x="445">Video Games</text>
+      <rect class="legend-item" fill="#71BC78" y="35" x="10"></rect><text y="50" x="45">Sound</text>
+      <rect class="legend-item" fill="#CE2029" y="35" x="210"></rect><text y="50" x="245">Gaming Hardware</text>
+      <rect class="legend-item" fill="#FA8072" y="35" x="410"></rect><text y="50" x="445">Narrative Film</text>
+      <rect class="legend-item" fill="#662d91" y="65" x="10"></rect><text y="80" x="45">3D Printing</text>
+      <rect class="legend-item" fill="#DDA0DD" y="65" x="210"></rect><text y="80" x="245">Television</text>
+      <rect class="legend-item" fill="#C71585" y="65" x="410"></rect><text y="80" x="445">Food</text>
+      <rect class="legend-item" fill="#c4caa0" y="95" x="10"></rect><text y="110" x="45">Technology</text>
+      <rect class="legend-item" fill="#32CD32" y="95" x="210"></rect><text y="110" x="245">Hardware</text>
+      <rect class="legend-item" fill="sienna" y="95" x="410"></rect><text y="110" x="445">Web</text>
+      <rect class="legend-item" fill="burlywood" y="125" x="10"></rect><text y="140" x="45">Wearables</text>
+      <rect class="legend-item" fill="#A9A9A9" y="125" x="210"></rect><text y="140" x="245">Sculpture</text>
+      <rect class="legend-item" fill="#eec0c8" y="125" x="410"></rect><text y="140" x="445">games</text>
+      <rect class="legend-item" fill="#D0D0D0" y="155" x="10"></rect><text y="170" x="45">Apparel</text>
+      <rect class="legend-item" fill="#DADD98" y="155" x="210"></rect><text y="170" x="245">Art</text>
+      <rect class="legend-item" fill="#004953" y="155" x="410"></rect><text y="170" x="445">Gadgets</text>
+    </svg>
+    <div id="tooltip"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
